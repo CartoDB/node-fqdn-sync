@@ -11,5 +11,5 @@ module.exports.reverse = function () {
 }
 
 module.exports.hostname = function () {
-    return host.split('.').pop()
+    return host.split('.').shift()
 }
