@@ -1,0 +1,28 @@
+{
+  "name": "@carto/fqdn-sync",
+  "version": "0.1.0",
+  "description": "Node module to get FQDN synchronously from local machine (Linux support)",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CartoDB/node-fqdn-sync.git"
+  },
+  "keywords": [
+    "node",
+    "fqdn",
+    "sync"
+  ],
+  "author": "Daniel García Aubert <dgaubert@carto.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/CartoDB/node-fqdn-sync/issues"
+  },
+  "homepage": "https://github.com/CartoDB/node-fqdn-sync#readme",
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "mocha": "5.2.0"
+  }
+}
