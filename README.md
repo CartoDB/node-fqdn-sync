@@ -4,7 +4,7 @@ Node module to get FQDN synchronously from local machine (Linux support)
 ## Install
 
 ```
-npm install fqdn-sync
+npm install @carto/fqdn-sync
 ```
 
 ## Usage
