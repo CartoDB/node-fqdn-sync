@@ -10,7 +10,12 @@ describe('fqdn-sync', function () {
         const hostname = fqdn();
         const reverseHostname = hostname.split('.').reverse().join('.');
 
-        console.log(reverseHostname, fqdn.reverse());
         assert.equal(reverseHostname, fqdn.reverse())
+    });
+
+    it('should get hostname', function () {
+        const hostname = fqdn().split('.').pop();
+
+        assert.equal(hostname, fqdn.hostname())
     });
 });

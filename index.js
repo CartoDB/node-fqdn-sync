@@ -9,3 +9,7 @@ module.exports = function () {
 module.exports.reverse = function () {
     return host.split('.').reverse().join('.');
 }
+
+module.exports.hostname = function () {
+    return host.split('.').pop()
+}
